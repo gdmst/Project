@@ -23,8 +23,8 @@ public class Home extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setTitle("Home");
 
-        /*MenuTop allMenu = new MenuTop();
-        setJMenuBar(allMenu);*/
+        MenuTop allMenu = new MenuTop();
+        setJMenuBar(allMenu);
 
     }
 
